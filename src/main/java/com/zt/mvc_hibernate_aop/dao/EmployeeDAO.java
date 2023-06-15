@@ -1,6 +1,6 @@
-package com.zaurtregulov.mvc_hibernate_aop.dao;
+package com.zt.mvc_hibernate_aop.dao;
 
-import com.zaurtregulov.mvc_hibernate_aop.entity.Employee;
+import com.zt.mvc_hibernate_aop.entity.Employee;
 
 import java.util.List;
 

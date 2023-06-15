@@ -1,4 +1,4 @@
-package com.zaurtregulov.mvc_hibernate_aop.entity;
+package com.zt.mvc_hibernate_aop.entity;
 
 import javax.persistence.*;
 

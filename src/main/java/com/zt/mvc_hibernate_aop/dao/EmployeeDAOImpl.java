@@ -1,13 +1,12 @@
-package com.zaurtregulov.mvc_hibernate_aop.dao;
+package com.zt.mvc_hibernate_aop.dao;
 
-import com.zaurtregulov.mvc_hibernate_aop.entity.Employee;
+import com.zt.mvc_hibernate_aop.entity.Employee;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.query.Query;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
-import javax.transaction.Transactional;
-import java.util.ArrayList;
+
 import java.util.List;
 
 

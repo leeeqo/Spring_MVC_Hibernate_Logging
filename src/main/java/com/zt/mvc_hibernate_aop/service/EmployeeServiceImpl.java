@@ -1,7 +1,7 @@
-package com.zaurtregulov.mvc_hibernate_aop.service;
+package com.zt.mvc_hibernate_aop.service;
 
-import com.zaurtregulov.mvc_hibernate_aop.dao.EmployeeDAO;
-import com.zaurtregulov.mvc_hibernate_aop.entity.Employee;
+import com.zt.mvc_hibernate_aop.dao.EmployeeDAO;
+import com.zt.mvc_hibernate_aop.entity.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

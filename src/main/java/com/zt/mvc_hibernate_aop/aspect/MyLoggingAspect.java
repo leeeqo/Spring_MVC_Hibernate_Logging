@@ -1,4 +1,4 @@
-package com.zaurtregulov.mvc_hibernate_aop.aspect;
+package com.zt.mvc_hibernate_aop.aspect;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 @Aspect
 public class MyLoggingAspect {
 
-    @Around("execution(* com.zaurtregulov.mvc_hibernate_aop.dao.*.*(..))")
+    @Around("execution(* com.zt.mvc_hibernate_aop.dao.*.*(..))")
     public Object aroundAllRepositoryMethodsAdvice(
             ProceedingJoinPoint proceedingJoinPoint) throws Throwable {
         MethodSignature methodSignature =
